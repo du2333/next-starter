@@ -5,6 +5,9 @@ on:
     branches: [ main, master ]  # 每次推送到主分支时触发
   workflow_dispatch:  # 允许手动触发
 
+permissions:
+  contents: write  # 需要写权限来创建release和上传文件
+
 jobs:
   build-and-release:
     runs-on: ubuntu-latest
