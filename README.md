@@ -12,13 +12,17 @@ A Go CLI tool that helps you quickly bootstrap Next.js applications with a stand
 
 ## Prerequisites
 
-- Go 1.21 or higher
+- Go 1.25 or higher
 - Node.js and pnpm (required for Next.js and shadcn/ui)
 - Git
 
 > **Note**: This tool currently only supports **pnpm** as the package manager. Support for npm and yarn may be added in future versions.
 
 ## Installation
+
+### Download Pre-built Binary
+
+Pre-built binaries are automatically generated for every commit and available in [GitHub Releases](../../releases).
 
 ### Build from Source
 
